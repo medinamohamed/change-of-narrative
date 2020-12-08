@@ -1,35 +1,34 @@
-
-
 /* TITLE  */
-.Title{
-    margin-top: 2%;
-    font-family: PlayfairDisplay-Bold;
-    font-size: 7vw;
-    font-weight: normal;
-    text-align: center;
-    color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr;
-    grid-row-gap: 2%;
+.Title {
+  margin-top: 2%;
+  font-family: PlayfairDisplay;
+  font-size: 7vw;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  grid-row-gap: 2%;
 }
 
-.Lets-change{
-    font-size: 8vw;
-    grid-column-start: 1;
-    grid-column-end: 3;
+.Lets-change {
+  font-size: 8vw;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
-.the{
-    margin-right: 15%;
-    text-align: right;
-    grid-area:3;
-    /*margin-top: -7rem; */
-
+.the {
+  margin-right: 15%;
+  text-align: right;
+  grid-area: 3;
+  /*margin-top: -7rem; */
 }
 .typing {
-    margin-left: -10%;
-    text-align: left;
-    grid-area:3;
-    position: relative;
-    font-family: PlayfairDisplay-BoldItalic;
+  margin-left: -10%;
+  text-align: left;
+  grid-area: 3;
+  position: relative;
+  font-family: PlayfairDisplay;
+  font-size: bold;
+  font-style: italic;
 }

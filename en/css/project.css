@@ -1,33 +1,27 @@
-
-
 /* TITLE  */
-.Title{
-    margin-top: 10%;
-    font-family: PlayfairDisplay-Bold;
-    font-size: 7vw;
-    font-weight: normal;
-    text-align: center;
-    color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-row: 1fr ;
-    grid-row-gap: 2%;
+.Title {
+  margin-top: 10%;
+  font-family: PlayfairDisplay;
+  font-size: 7vw;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: 1fr;
+  grid-row-gap: 2%;
 }
 
-.Project{
-    font-size: 8vw;
-
+.Project {
+  font-size: 8vw;
 }
 .first_section {
-    width: 100vw;
-    height: 70vh;
-   
-  }
+  width: 100vw;
+  height: 70vh;
+}
 
 .second_section {
-    background-color: white;
-    width: 100vw;
-    height: 100vh;
-
-    
-  }
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
