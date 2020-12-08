@@ -1,0 +1,33 @@
+
+
+/* TITLE  */
+.Title{
+    margin-top: 2%;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 7vw;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-row: 1fr ;
+    grid-row-gap: 2%;
+}
+
+.Lets-change{
+    font-size: 8vw;
+
+}
+
+.typing {
+    grid-column-start: 3;
+    grid-column-end: 6;
+
+    text-align: center;
+    margin-right: 5%;
+    
+    grid-area:3;
+   
+    font-family: PlayfairDisplay-BoldItalic;
+}
+

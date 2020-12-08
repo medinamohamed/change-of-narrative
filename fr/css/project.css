@@ -1,0 +1,21 @@
+
+
+/* TITLE  */
+.Title{
+    margin-top: 10%;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 7vw;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-row: 1fr ;
+    grid-row-gap: 2%;
+}
+
+.Project{
+    font-size: 8vw;
+
+}
+

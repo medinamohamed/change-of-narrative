@@ -1,0 +1,116 @@
+/* TEXT */
+.Change-of-Narrative {
+    margin-left:3%
+  
+   
+
+  }
+
+
+.text {
+    margin-top: 6%;
+    margin-left: 8%;
+
+}
+.text h2{
+
+  font-family: PlayfairDisplay-Bold;
+  font-size: 4vw;
+  
+  color: white;
+
+}
+
+.text p {
+
+  margin-top: 3%;
+  width: 35vw;
+  font-family: Muli;
+  font-size: 2vw;
+
+  text-align: left;
+
+  color: white;
+}
+
+/* FORM */
+
+.form{
+
+    font-family: Muli;
+    font-size: 1.5vw;
+
+    color: white;
+
+    margin-top: -34%;
+    margin-left: 55%;
+
+}
+
+input[type="text"]
+{ 
+    font-family: Muli;
+    font-size:1.38vw;
+}
+
+input[type="email"]
+{ 
+    width: 34vw;
+    font-family: Muli;
+    font-size:1.6vw;
+}
+.first_name_input{
+  margin-top: 1%;
+}
+
+.last_name{
+  margin-top: -10%;
+  margin-left: 42%;
+}
+.last_name_input{
+  margin-top: 1%;
+  margin-left: 42%;
+}
+
+.email{
+  margin-top: 3%;
+}
+.email{
+  margin-top: 1%;
+}
+
+.subject{
+  margin-top: 3%;
+}
+.subject_input input[type="text"] {
+  margin-top: 1%;
+  width: 34vw;
+  font-family: Muli;
+  font-size:1.6vw;
+}
+
+
+.message{
+  margin-top: 3%;
+}
+.message_input input[type="text"] {
+  margin-top: 1%;
+  width: 34vw;
+  font-family: Muli;
+  font-size:1.6vw;
+  height:10vw
+}
+
+.submit{
+  margin-left:58%;
+  margin-top: 2%;
+
+  border-radius: 0.7em;
+
+  width:8vw;
+  height:2.5vw;
+  color:#ED3535;
+
+  font-size: 1.2vw;
+  font-weight: bold;
+}
