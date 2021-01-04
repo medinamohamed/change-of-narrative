@@ -1,3 +1,7 @@
+.first_section {
+  width: 100vw;
+  height: 80vh;
+}
 /* TITLE  */
 .Title {
   margin-top: 2%;
@@ -31,4 +35,46 @@
   font-family: PlayfairDisplay;
   font-size: bold;
   font-style: italic;
+}
+.second_section {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leader h2 {
+  padding-top: 15%;
+  text-align: center;
+
+  font-family: PlayfairDisplay;
+  font-size: regular;
+  font-size: 3vw;
+  color: #ed3535;
+}
+
+.leader p {
+  text-align: center;
+  width: 70vw;
+
+  padding-left: 32%;
+  padding-top: 1.5%;
+
+  font-family: "Muli", sans-serif;
+  font-size: 1.5vw;
+}
+
+.leader button {
+  border-radius: 1em;
+
+  width: 12vw;
+
+  height: 3vw;
+
+  background-color: #ed3535;
+  border: none;
+
+  margin-left: 45%;
+  margin-top: 10%;
+
+  padding: 0.7vw;
 }

@@ -99,6 +99,8 @@ input[type="email"] {
   height: 2.5vw;
   color: #ed3535;
 
+  border: none;
+
   font-size: 1.2vw;
   font-weight: bold;
 }
