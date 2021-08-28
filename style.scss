@@ -1,10 +1,103 @@
 body {
-    background-color: #ed3535;
-  }
+  background-color: #ed3535;
+}
 
 * {
-    /* star affects all the elements (rule) */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  /* star affects all the elements (rule) */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Header
+.Change-of-Narrative {
+  cursor: pointer;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-left: 2%;
+
+  img {
+    width: 12vw;
   }
+}
+
+// First section
+.first_section {
+  width: 100vw;
+  height: 100vh;
+}
+/* TITLE  */
+.Title {
+  margin-top: 2%;
+  font-family: PlayfairDisplay;
+  font-size: 12vw;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  grid-row-gap: 2%;
+  margin-top: 30%;
+
+  .Lets-change {
+    font-size: 12vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .the {
+    margin-right: 15%;
+    text-align: right;
+    grid-area: 3;
+    /*margin-top: -7rem; */
+  }
+  .typing {
+    margin-left: -10%;
+    text-align: left;
+    grid-area: 3;
+    position: relative;
+    font-family: PlayfairDisplay;
+    font-size: bold;
+    font-style: italic;
+  }
+}
+
+// Second section
+.second_section {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leader h2 {
+  padding-top: 15%;
+  text-align: left;
+
+  font-family: PlayfairDisplay;
+  font-size: regular;
+  font-size: 6vw;
+  color: #ed3535;
+
+  width: 70%;
+
+  padding-top: 35%;
+  margin-left:15%;
+
+}
+
+.leader p {
+  text-align: left;
+  width:70%;
+
+  margin-left: 15%;
+  padding-top: 5.5%;
+
+  font-family: "Muli", sans-serif;
+  font-size: 4vw;
+}
+
+//Third section
+.third_section {
+  width: 100vw;
+  height: 100vh;
+}
