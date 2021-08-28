@@ -1,4 +1,4 @@
-
+// Typing and Erasing text
 const typing = document.querySelector(".typing");
 const texts = ['society','world','narrative'];
 
